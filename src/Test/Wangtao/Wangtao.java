@@ -13,21 +13,11 @@ public class Wangtao extends Lth {
         this.Comment = this.Comment="...";
     }
 
-//    public void eat(String s){
-//        if (s.equals("meat")){
-//            System.out.println("I am "+ name + ",I like eating "+"vegetable,because "+s+" makes me fat!");
-//        }
-//        else{
-//            System.out.println("I am "+ name + ",I like eating "+s);
-//        }
-//    }
-//    public void sleep(String sex){
-//        System.out.println("I am a sleepy "+ sex );
-//    }
     public void shangHao(String s){
+//        super.eat("baba");
         System.out.println("I like to play "+s+" in the dormitory");
     }
-//    public  void State(){
-//        System.out.println(Comment);
-//    }
+    public void State() {
+        System.out.println("123");
+    }
 }
